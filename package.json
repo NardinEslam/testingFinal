@@ -10,7 +10,13 @@
   "license": "ISC",
   "dependencies": {
     "chai": "^5.2.0",
-    "cypress": "^14.3.3",
     "mocha": "^11.3.0"
+  },
+  "devDependencies": {
+    "@badeball/cypress-cucumber-preprocessor": "^22.0.1",
+    "@bahmutov/cypress-esbuild-preprocessor": "^2.2.5",
+    "cypress": "^14.3.3",
+    "cypress-file-upload": "^5.0.8",
+    "esbuild": "^0.25.4"
   }
 }
